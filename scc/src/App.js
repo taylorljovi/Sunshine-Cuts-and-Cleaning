@@ -4,22 +4,22 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="App">
+     <section className="banner">
+        <div className="banner__content">
+          <div className="banner__text-box">
+            <h1 className="banner__text banner__text--big">Sunshine Cuts and Cleaning</h1>
+       {/* <header className="App-logo1">
+        Hello World
+      </header> */}
+          </div>
+        </div>
+     </section> 
+      {/* <h2 className="App-header">
+        <img  className="banner" alt="Sunshine Cuts and Cleaning" />
+        <p></p>
+      </h2> */}
+    </main>
   );
 }
 
