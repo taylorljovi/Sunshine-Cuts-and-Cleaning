@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "devStart": "nodemon server.js"
-      },
+    "devStart": "nodemon server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/taylorljovi/Sunshine-Cuts-and-Cleaning.git"
@@ -18,7 +18,8 @@
   "homepage": "https://github.com/taylorljovi/Sunshine-Cuts-and-Cleaning#readme",
   "dependencies": {
     "ejs": "^3.1.3",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
