@@ -1,27 +1,37 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import About from './components/About';
+import Contact from './components/Contact';
+import Service from "./components/Service";
 import './App.css';
 import Header from './components/Header';
 import GrassBanner from './containers/GrassBanner';
+import Footer from './components/Footer';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 class App extends Component {
+
   render() {
-
-    let links = [
-      { label: "Home", link: "/home", active: true },
-      { label: "Service and Pricing", link: "/service" },
-      { label: "About", link: "/about" },
-      { label: "Contact", link: "/contact" },
-    ];
-
     return (
-      <div className="App">
-        <Header links={links} logo = {logo} />
-        <GrassBanner />
-      </div>
+      <Router>
+        <div className="App">
+          <Switch>
+              <Route path = "/" exact component={Home}/>
+              <Route path = "/service" component={Service}/>
+              <Route path = "/about" component={About}/>
+              <Route path = "/contact" component={Contact}/>
+            </Switch>
+        </div>
+      </Router>
     );
   };
 }
- 
+
+const Home = () => (
+  <div className="App">
+    <Header />
+    <GrassBanner />
+    <Footer />
+  </div>
+);
 
 export default App;
