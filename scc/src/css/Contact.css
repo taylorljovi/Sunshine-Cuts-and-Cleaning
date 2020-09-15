@@ -1,0 +1,88 @@
+.title_contact {
+    text-align: left;
+    font-size: 3rem;
+    margin: 3%;
+    border-bottom: 3px solid;
+}
+/* 
+.contact_text_box {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    color: black;
+    top: 40%;
+    left: 2rem;
+    
+} */
+
+.details_a{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 12%;
+    font-size: 18px;
+}
+
+.section_b{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 10%;
+    font-size: 25px;
+}
+
+.section_c{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 12%;
+    font-size:  18px;
+}
+
+.section_c :last-child{
+        border-bottom: 4px solid;
+}
+
+.contact_banner {
+    width: 100%;
+    height: 72vh;
+    background-image: url('../images/mower-1.jpg');
+    margin-top: 0rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact_banner__content {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(45,82,159,.4);
+    position: relative;
+}
+
+.contact_banner__text-box {
+    width: 70%;
+    color: #fff;
+    position: absolute;
+    padding: 4rem;
+    top: 40%;
+    transform: translateY(-50%);
+    left: 5rem;
+}
+
+.contact_banner__text--big {
+    font-size: 4rem;
+    border-bottom: 4px solid;
+    text-transform: uppercase;
+}
+
+.contact_banner__text--medium {
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+.contact_banner__text--small {
+    font-size: 1.5rem;
+    margin-top: .7rem;
+}
+
+.contact_banner__text {
+    text-shadow: 2px 2px 10px rgba(45, 82, 159, 1);
+}

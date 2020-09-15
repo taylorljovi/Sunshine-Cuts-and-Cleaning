@@ -1,0 +1,15 @@
+
+.contact_photo {
+    text-indent: -9999999px;
+    display: inline-block;
+    height: 300px;
+    width: 350px;
+    
+    background-image: url('../images/Jason.jpg');
+    background-size: cover 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    top: 0;
+    right:0;
+    
+}

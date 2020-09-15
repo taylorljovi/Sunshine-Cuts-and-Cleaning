@@ -12,7 +12,7 @@ class Header extends Component {
               <nav className="menu__list">              
                   <li className="menu__list-item">
                    <Link to="/">
-                    <a className="menu_list menu__link menu__link--active" href="#">
+                    <a className="menu__link menu__link--active" href="#">
                       Home
                     </a>
                    </Link>
