@@ -96,28 +96,31 @@ body {
     font-weight: 700;
 }
 
-#menu_list a:hover{
+.menu__link a:hover{
     color: #ffaa3b;
 }
-#menu__list ul {
+#menu__link ul {
    list-style: none;
    display: flex;
 }
 
-#menu__list li {
+#menu__link li {
     width: 100%;
     text-align: center;
     position: relative;
 }
-#menu__list li:hover .sub_menu > li{
+
+.menu__list li:hover .sub_menu > li{
     display: block;
-    top: 0px;
+    flex-direction: column;
+    top: 0px;  
 }
 
 .sub_menu li {
     display: none;
     position: absolute;
     top: 0px;
+    
 }
 
 .sub_menu {
@@ -125,6 +128,10 @@ body {
     flex-direction: column;
     position: absolute;
     width: 100%;
+}
+
+.sub_menu li {
+    position: relative;
 }
 
 

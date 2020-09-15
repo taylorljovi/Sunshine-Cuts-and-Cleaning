@@ -47,8 +47,6 @@ class About extends Component {
               <h2>
                 <image className="about_photo"></image>
               </h2>
-            </div>
-            <div className="thank_you">
               <h2>Thank You to Our Customers</h2>
               <p>
                 I wanted to take this opportunity to thank you for supporting
@@ -62,6 +60,7 @@ class About extends Component {
               <p>Jason T Jovi</p>
               <p>Sunshine Cuts and Cleaning</p>
             </div>
+            {/* <div className="thank_you"></div> */}
           </div>
         </section>
         {/* <section></section> */}

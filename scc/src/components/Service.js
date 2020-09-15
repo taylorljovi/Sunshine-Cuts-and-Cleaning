@@ -17,7 +17,6 @@ class Service extends Component {
                 Service & pricing
               </h1>
             </div>
-            
           </div>
         </section>
         <Locations />
