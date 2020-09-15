@@ -16,9 +16,6 @@ class Contact extends Component {
                   <h1 className="contact_banner__text contact_banner__text--big">
                     Contact Sunshine!
                   </h1>
-                  {/* <h2 className="contact_banner__text contact_banner__text--medium">
-                    Lawn care at your fingertips
-                  </h2> */}
                   <h3 className="contact_banner__text contact_banner__text--small">
                     <p>
                       You may request lawn care service by calling us at 314-791-7399.
