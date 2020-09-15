@@ -8,6 +8,8 @@ import GrassBanner from './containers/GrassBanner';
 import Locations from './components/Locations';
 import Footer from './components/Footer';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Mowing from './components/Mowing';
+import Power_washing from './components/Power_washing';
 
 class App extends Component {
 
@@ -18,6 +20,8 @@ class App extends Component {
           <Switch>
               <Route path = "/" exact component={Home}/>
               <Route path = "/service" component={Service}/>
+              <Route path = "/mow" component={Mowing}/>
+              <Route path = "/power-wash" component={Power_washing}/>
               <Route path = "/about" component={About}/>
               <Route path = "/contact" component={Contact}/>
             </Switch>

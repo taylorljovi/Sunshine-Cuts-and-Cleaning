@@ -22,15 +22,23 @@ class Header extends Component {
                   <li className="menu__list-item">
                     <Link to="/service">
                       <a className="menu__link" href="#">
-                        {" "}
                         Service and Pricing <span class="arrow">&#x25BC;</span>
                       </a>
                       <ul className="sub_menu">
                         <li>
-                          <a className="menu__link" href="#"> Mowing </a>
+                          <Link to="/mow">
+                            <a className="menu__link" href="#">
+                              Mowing
+                            </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="menu__link" href="#"> Power Washing </a>
+                          <Link to="/power-wash">
+                            <a className="menu__link" href="#">
+                              {" "}
+                              Power Washing{" "}
+                            </a>
+                          </Link>
                         </li>
                       </ul>
                     </Link>
