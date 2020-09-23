@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from "./Header";
 import Footer from './Footer';
 import Locations from './Locations';
+import Request from './Request';
 import '../css/Contact.css';
 
 class Contact extends Component {
@@ -42,6 +43,7 @@ class Contact extends Component {
               <p className="section_c">Email: jasotjovi@yahoo.com</p>
             </div>
           </div>
+          <Request />
           <Locations />
           <Footer />
         </div>

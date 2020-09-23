@@ -2,7 +2,10 @@ import React, { Component } from "react";
 import Header from "./Header";
 import Locations from "./Locations";
 import Footer from "./Footer";
+import Request from "./Request";
 import "../css/Mowing.css";
+// import "../css/Contact_form.css";
+// import {db} from '../components/Firebase';
 
 class Mowing extends Component {
   render() {
@@ -18,6 +21,22 @@ class Mowing extends Component {
             </div>
           </div>
         </section>
+        <section>
+          <Request />
+        </section>
+
+        {/* <form className="form">
+                <label> Name </label>
+                <input placeholder="Name" />
+
+                <label> Email </label>
+                <input placeholder="Email" />
+
+                <label> Message </label>
+                <textarea placeholder="Message" />
+
+                <button type="submit"> Submit </button>
+              </form> */}
         <Locations />
         <Footer />
       </div>
