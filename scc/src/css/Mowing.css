@@ -1,7 +1,7 @@
 
 .mowing_banner {
     width: 100%;
-    height: 60vh;
+    height: 72vh;
     background-image: url('../images/Grass-1.jpg');
     margin-top: 0rem;
     background-repeat: no-repeat;
@@ -41,4 +41,57 @@
 
 .mowing_banner__text {
     text-shadow: 2px 2px 10px rgba(45, 82, 159, 1);
+}
+
+
+.details_mowing {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 5%;
+    font-size: 26px;
+    margin-top: 4%;
+}
+
+.details_mowing2 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 5%;
+    font-size: 20px;
+    color: green;
+    margin-top: 2%;
+}
+
+.details_mowing3 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 5%;
+    font-size: 18px;
+    color: black;
+    margin-top: 3%;
+    word-spacing: 2px;
+}
+
+.mowing_photo_box {
+    width: 125%;
+    /* align-items: left; */
+    margin-right: 1.6949152542%;
+}
+
+.mowing_photo {
+    float: left;
+    border: none;
+    box-shadow: 4px 4px 16px -2px;
+    display: block;
+    height: 20rem;
+    max-width: auto;
+    background-image: url('../images/mowing_stripes.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 40px auto;
+    width: 480px;
+    margin-left: 150px;
 }

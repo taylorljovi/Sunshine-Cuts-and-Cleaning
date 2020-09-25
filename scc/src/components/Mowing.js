@@ -21,22 +21,41 @@ class Mowing extends Component {
             </div>
           </div>
         </section>
-        <section>
+        <section className="details_container">
+          <div>
+            <h1 className="details_mowing">
+              Lawn maintenance service for residential and commercial properties
+              in South County and near by Missouri areas.
+            </h1>
+            <h2 className="details_mowing2">
+              {" "}
+              Our lawn maintenance includes mowing, string-trimming, blowing,
+              and more.
+            </h2>
+            <p>
+              <image className="mowing_photo mowing_photo"></image>
+            </p>
+            <p className="details_mowing3">
+              We are committed to enhancing our clients' most important
+              investment by exceeding their lawn service needs with reliability
+              and value. Imagine quality family time, rest, and relaxation, and
+              leaving the dirty work to us.
+            </p>
+            <p className="details_mowing3">
+              Your business is just as important as ours. Like any other turf,
+              the lawn around your business requires attention and service. Our
+              flexibility and ability to customize a lawn care program for your
+              property allows your business to make a great first impression.
+            </p>
+            <h2 className="details_mowing3">
+              We pride ourselves on our ability to make your lawn look its best.
+              All mowing services include sting-trimming, blowing aor all
+              clippings creating a clean fresh look.
+            </h2>            
+          </div>
           <Request />
         </section>
-
-        {/* <form className="form">
-                <label> Name </label>
-                <input placeholder="Name" />
-
-                <label> Email </label>
-                <input placeholder="Email" />
-
-                <label> Message </label>
-                <textarea placeholder="Message" />
-
-                <button type="submit"> Submit </button>
-              </form> */}
+       
         <Locations />
         <Footer />
       </div>
