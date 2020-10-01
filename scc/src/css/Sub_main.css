@@ -22,6 +22,7 @@
     text-decoration: none;
     float: left;
     font-size: larger;
+    border-radius: 5px;
 }
 
 .button2{
@@ -32,6 +33,7 @@
     text-decoration: none;
     float: right;
     font-size: larger;
+    border-radius: 5px;
 }
 
 

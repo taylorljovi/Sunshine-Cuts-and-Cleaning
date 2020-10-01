@@ -7,27 +7,29 @@ class Header extends Component {
     render() {
         return (
           <nav className="menu">
-            <h1 className="menu__logo">SunShine Cuts and Cleaning</h1>
+            <Link to="/">
+              <h1 className="menu__logo">SunShine Cuts and Cleaning</h1>
+            </Link>
             <div className="menu__right">
               <nav className="menu__list">
                 <ul>
-                  <li className="menu__list-item">
+                  <li className="menu__list-item menu__link--active">
                     <Link to="/">
-                      <a className="menu__link menu__link--active" href="#">
+                      <a className="menu__link" href="#">
                         {" "}
                         Home{" "}
                       </a>
                     </Link>
                   </li>
-                  <li className="menu__list-item">
+                  <li className="menu__list-item menu__link--active ">
                     <Link to="/service">
-                      <a className="menu__link" href="#">
+                      <a className="menu__link " href="#">
                         Service and Pricing <span class="arrow">&#x25BC;</span>
                       </a>
                       <ul className="sub_menu">
                         <li>
                           <Link to="/mow">
-                            <a className="menu__link" href="#">
+                            <a className="menu__link " href="#">
                               Mowing
                             </a>
                           </Link>
@@ -43,7 +45,7 @@ class Header extends Component {
                       </ul>
                     </Link>
                   </li>
-                  <li className="menu__list-item">
+                  <li className="menu__list-item menu__link--active">
                     <Link to="/about">
                       <a className="menu__link" href="#">
                         {" "}
@@ -51,7 +53,7 @@ class Header extends Component {
                       </a>
                     </Link>
                   </li>
-                  <li className="menu__list-item">
+                  <li className="menu__list-item menu__link--active">
                     <Link to="contact">
                       <a className="menu__link" href="#">
                         {" "}

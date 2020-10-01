@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../css/Footer.css";
 import { Link } from "react-router-dom";
 
+
 class Footer extends Component {
     render () {
         return (
@@ -48,7 +49,6 @@ class Footer extends Component {
                 <p className="copyright">Copyright © 2020</p>
               </div>
             </footer>
-
         );
     }
 }

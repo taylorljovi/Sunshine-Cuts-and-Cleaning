@@ -85,6 +85,7 @@
         width: 80%;
         font-size: 2.5rem;
         margin: 3% auto;
+        margin-top: 5%;
         
     }
     .section_description{
@@ -98,15 +99,20 @@
         display: flex;
         width: 95%;
         text-align: left;
+        margin-top: 4%;
     }
     .statement {
         flex-direction: column;
         width: 30%;
         margin: 1% auto;
+        margin-bottom: 4%;
     }
     .subtitle {
         display: flex;
         margin: 1%;
         width: 5%;
+        font-size: x-large;
+        color: green;
+        
     }
 
