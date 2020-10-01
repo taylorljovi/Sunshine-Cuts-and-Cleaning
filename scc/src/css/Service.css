@@ -66,3 +66,25 @@
 .service_banner__text {
     text-shadow: 2px 2px 10px rgba(45, 82, 159, 1);
 }
+
+.container{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.span5 {
+    width: 40%;
+    float: left;
+    margin-right: 2%;
+}
+
+.line {
+    background: green;
+    height: 1px;
+    margin: 60px 0px;
+    width: 100%;
+    clear: both;
+}

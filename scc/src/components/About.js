@@ -51,7 +51,7 @@ class About extends Component {
                 <h2>Thank You to Our Customers</h2>
                 <p>
                   I wanted to take this opportunity to thank you for supporting
-                  out lawn care business throughout the year. We're especially
+                  our lawn care business throughout the year. We're especially
                   grateful for your support during these difficult times. We at
                   Sunshine Cuts and Cleaning really do value your business and
                   look forward to working with you in the rest of 2020 and on to

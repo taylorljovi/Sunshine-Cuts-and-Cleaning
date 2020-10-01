@@ -19,6 +19,23 @@ class Service extends Component {
             </div>
           </div>
         </section>
+        <section>
+          <div className="container">
+            <div className="span5">
+              <h2> Core Aeration Treatment </h2>
+                <p>
+                  "Core aeration is an important practice to provide your
+                  lawn with the ultimate care. An aerated lawn will help control 
+                  thatch, improve soil, improve root growth, and open airways 
+                  for water and fertilizer to reach the lawn's root system."
+                </p>
+              <div className= "line">               
+              </div>
+
+            </div>
+          </div>
+        </section>
+
         <Locations />
         <Footer />
       </div>
