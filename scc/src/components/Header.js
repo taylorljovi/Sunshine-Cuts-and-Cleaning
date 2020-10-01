@@ -32,14 +32,14 @@ class Header extends Component {
                             </a>
                           </Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link to="/power-wash">
                             <a className="menu__link" href="#">
                               {" "}
                               Power Washing{" "}
                             </a>
                           </Link>
-                        </li>
+                        </li> */}
                       </ul>
                     </Link>
                   </li>

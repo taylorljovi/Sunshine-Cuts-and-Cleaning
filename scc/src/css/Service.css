@@ -78,11 +78,11 @@
 
 .quote_link{
     position: relative;
-    color: green;
-    border: 2px solid green;
+    background-color: green;
+    border: solid 3px green;
+    color: white;
+    font-weight: 700;
     text-decoration: none;
-    
-;
 }
 
 .span5 {
