@@ -1,7 +1,7 @@
 .container{
   /* border-radius: 5px; */
   /* background-color: #f2f2f2; */
-  /* padding: 270px; */
+  padding: 0px;
   
 }
 .form {
@@ -12,7 +12,7 @@
   position: absolute;
   top: 163%;
   left: 80%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%,-110%);
   max-width: 900px;
   width: 35%;
   background: #fff;
