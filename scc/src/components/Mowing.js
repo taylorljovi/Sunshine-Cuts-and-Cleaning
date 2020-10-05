@@ -5,13 +5,15 @@ import Footer from "./Footer";
 import Request from "./Request";
 import "../css/Mowing.css";
 // import "../css/Contact_form.css";
+import Scroll_to_top_button from './Scroll_to_top_button';
 // import {db} from '../components/Firebase';
 
 class Mowing extends Component {
   render() {
     return (
       <div>
-        <Header />
+        <Header />\
+        <Scroll_to_top_button/>
         <section className="mowing_banner">
           <div className="mowing__content">
             <div className="mowing__text-box">
@@ -49,8 +51,8 @@ class Mowing extends Component {
             </p>
             <h2 className="details_mowing3">
               We pride ourselves on our ability to make your lawn look its best.
-              All mowing services include sting-trimming, blowing aor all
-              clippings creating a clean fresh look.
+              All mowing services include sting-trimming and blowing all
+              clippings away creating a clean fresh look.
             </h2>            
           </div>
           <Request />

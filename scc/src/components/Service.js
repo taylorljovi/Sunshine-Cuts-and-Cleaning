@@ -5,12 +5,14 @@ import Locations from "./Locations";
 import Footer from "./Footer"
 import "../css/Service.css";
 import { Link } from "react-router-dom";
+import Scroll_to_top_button from './Scroll_to_top_button';
 
 class Service extends Component {
   render() {
     return (
       <div>
         <Header />
+        <Scroll_to_top_button/>
         <section className="service_banner">
           <div className="service_banner__content">
             <div className="service_banner__text-box">

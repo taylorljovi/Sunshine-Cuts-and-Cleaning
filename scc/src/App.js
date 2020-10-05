@@ -12,6 +12,9 @@ import Mowing from './components/Mowing';
 import Power_washing from './components/Power_washing';
 import Scroll_to_top from './components/Scroll_to_top';
 import Sub_main from './components/Sub_main';
+import Scroll_to_top_button from './components/Scroll_to_top_button';
+import Scroll from './components/Scroll';
+
 
 class App extends Component {
 
@@ -37,8 +40,10 @@ class App extends Component {
 const Home = () => (
   <div className="App">
     <Header />
+    {/* <Scroll showBelow={5} /> */}
+    <Scroll_to_top_button/>
     <GrassBanner />
-    <Sub_main/>
+    <Sub_main />
     <Locations />
     <Footer />
   </div>

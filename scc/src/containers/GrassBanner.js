@@ -26,7 +26,7 @@ class GrassBanner extends Component {
             Professional Lawn Mowing &amp; Whenever You Need It
           </h2>
           <p className= "section_description">
-            Sunshine Cuts and Cleaning is a service platform that connects
+            Sunshine Cuts and Cleaning is a company that connects
             homeowners and property managers with a local contractor. Sunshine
             Cuts and Cleans uses technology to simplify your experience to order
             lawn care services throughout the year.
@@ -35,14 +35,14 @@ class GrassBanner extends Component {
             <div className="statement">
               <h3 className="subtitle">Convenient</h3>
               <ul>
-                <li>Simple ordering process on website and mobile app</li>
+                <li>Simple ordering process on website or phone</li>
                 <li>View photos of your property for each job</li>
               </ul>
             </div>
             <div className="statement">
               <h3 className="subtitle">Reliable</h3>
               <ul>
-                <li>Vetted and insured local companies and contractors</li>
+                <li>Vetted and insured local company</li>
                 <li>Complete satisfaction guarantee</li>
               </ul>
             </div>

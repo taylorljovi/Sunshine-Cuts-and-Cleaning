@@ -21,7 +21,7 @@ class Header extends Component {
                       </a>
                     </Link>
                   </li>
-                  <li className="menu__list-item menu__link--active ">
+                  <li className="menu__list-item menu__link--active">
                     <Link to="/service">
                       <a className="menu__link " href="#">
                         Service and Pricing <span class="arrow">&#x25BC;</span>

@@ -3,12 +3,14 @@ import Header from "./Header";
 import Locations from "./Locations";
 import Footer from "./Footer";
 import "../css/About.css"
+import Scroll_to_top_button from './Scroll_to_top_button';
 
 class About extends Component {
   render() {
     return (
       <div>
         <Header />
+        <Scroll_to_top_button />
         <section className="about_banner">
           <div className="about__content">
             <div className="about__text-box">
@@ -22,7 +24,7 @@ class About extends Component {
           <div className="about_description">
             <h2>Locally Owned and Family Operated</h2>
             <p>
-              Summertime in Missouri is a time to be outside and enjoy all that
+              Summer time in Missouri is a time to be outside and enjoy all that
               nature has to offer. Sunshine Cuts and Cleaning is hard at work to
               make that experience come to life. Many of our competitors focus
               on generating higher revenue, resulting in unnecessary

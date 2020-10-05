@@ -4,12 +4,14 @@ import Footer from './Footer';
 import Locations from './Locations';
 import Request from './Request';
 import '../css/Contact.css';
+import Scroll_to_top_button from './Scroll_to_top_button';
 
 class Contact extends Component {
   render (){
       return (
         <div>
           <Header />
+          <Scroll_to_top_button />
           <div>
             <section className="contact_banner">
               <div className="contact_banner__content">
